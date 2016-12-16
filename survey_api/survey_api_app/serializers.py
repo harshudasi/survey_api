@@ -79,18 +79,3 @@ class UserSerializer(serializers.Serializer):
 							attrs.get('laptop'),attrs.get('school'),attrs.get('fb_account'),
 							attrs.get('whatsapp_account'),attrs.get('email_id'),
 							attrs.get('mobile_brand'),attrs.get('mobile_network'))		
-
-
-
-
-# class SurveySerializer(serializers.Serializer):
-# 	id = serializers.CharField(required=True, max_length=50)
-# 	surveyor_name = serializers.CharField(required=True, max_length=50)
-# 	interview_date = serializers.DateField(required=True, max_length=50)
-# 	def restore_object(self,attrs,instance=None):
-# 		instance.id = attrs.get('id',instance.id)
-# 		instance.surveyor_name = attrs.get('surveyor_name',instance.surveyor_name)
-# 		instance.interview_date = attrs.get('interview_date',instance.interview_date)
-# 		return instance
-# 	return SurveyDetails(attrs.get('id'),attrs.get('surveyor_name'),
-# 						attrs.get('interview_date'))
