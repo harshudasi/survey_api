@@ -11,7 +11,7 @@ url routes(both routes are get routes):
 	This route will return name and mobile brand along with id of the users belonging to that age range and income.It has been implemented using Serializers and ORM.
 
 2. 127.0.0.1:8000/count/age_range/income_range:
-	This route will return mobile brands with counts. It returns simple JSON.
+	This route will return mobile brands with counts. It returns simple JSON in descending order of mobile brands count.
 
 Values to be passed:
 age_range: 12to17,18to25,26to35,36to50,60plus
